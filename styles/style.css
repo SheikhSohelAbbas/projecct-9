@@ -27,13 +27,13 @@ body{
 
 }
 .banner-content{
-width: 632px;
-height:600px;
-display: flex;
-flex-direction: column;
-justify-content: center;
-align-items: center;
-margin: 0 auto;
+    width:  632px;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
 }
 .banner-content p{
     font-size: 32px;
@@ -50,7 +50,7 @@ margin: 0 auto;
 .first-container{
     width: 802.9px;
     height: 806px;
-    border: 2px solid red;
+    /* border: 2px solid red; */
     margin: 0 auto;
     margin-top: 90px;
 }
@@ -88,4 +88,135 @@ margin-top: 48px;
 .image-content img{
     width: 100%;
 height: 100%;
+}
+/* Midnighit party styles */
+.maidnight-container{
+    width: 1320px;
+    height: 600px;
+    /* border: 2px solid red; */
+    margin: 0 auto;
+    display: flex;
+    /* flex-direction:row;
+    justify-content: center;
+    align-items: center;
+} */
+    background-image: url(/images/Vectorrr.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 90px;
+    margin-bottom: 90px;
+}
+.leftside-content{
+    width: 50%;
+    height: 600px;
+    /* border: 2px solid green; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 126px 55px 24px 126px;
+}
+.leftside-content h1{
+    color: rgb(255, 255, 255);
+font-family: Merriweather;
+font-size: 64px;
+font-weight: 900;
+margin-bottom: 24px;
+text-align: left;
+}
+.leftside-content p{
+    color: rgba(255, 255, 255, 0.8);
+font-family: Inter;
+font-size: 18px;
+font-weight: 400;
+margin-bottom: 24px;
+text-align: left;
+}
+#btn{
+    color: rgb(255, 255, 255);
+font-family: Inter;
+font-size: 14px;
+font-weight: 700;
+margin-bottom: 24px;
+margin-right: 400px;
+}
+.rightside-content{
+    width: 50%;
+    height: 600px;
+    /* border: 2px solid blueviolet; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.rightside-content img{
+    width: 349.16px;
+    height: 464.65px;
+}
+/* Holiday section styles */
+.holiday-container{
+    width: 1320px;
+height: 986.07px;
+border: 2px solid red;
+margin: 0 auto;
+margin-top: 90px;
+margin-bottom: 90px;
+position: relative;
+}
+.holiday-text-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 1068px;
+height: 260px;
+margin: 0 auto;
+}
+.holiday-text-content h5{
+    color: rgb(7, 2, 17);
+font-family: Inter;
+font-size: 24px;
+font-weight: 500;
+margin-bottom: 16px;
+
+}
+.holiday-text-content h1{
+    font-family: Merriweather;
+font-size: 72px;
+font-weight: 900;
+margin-bottom: 28px;
+color:rgb(7, 2, 17); 
+}
+#holiday-color{
+    color: rgb(255, 0, 0);
+}
+.holiday-text-content p{
+    color: rgba(7, 2, 17, 0.6);
+font-family: Inter;
+font-size: 20px;
+font-weight: 500;
+}
+
+.solid-color{
+    width: 1320px;
+    height: 229px;
+background-color: rgb(255, 0, 0);
+position: absolute;
+top: 77%;
+}
+.gift-box{
+    width: 674.82px;
+    height: 577.96px;
+    position: relative;
+    z-index: 1;
+    display: flex;
+    justify-content: space-between;
+   
+}
+.girl-contant{
+    width: 206.84px;
+    height: 206.84px;
+    position: relative;
+    left: 35%;
+    top: 30%;
 }
