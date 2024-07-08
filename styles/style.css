@@ -157,7 +157,7 @@ margin-right: 400px;
 .holiday-container{
     width: 1320px;
 height: 986.07px;
-border: 2px solid red;
+/* border: 2px solid red; */
 margin: 0 auto;
 margin-top: 90px;
 margin-bottom: 90px;
@@ -219,4 +219,64 @@ top: 77%;
     position: relative;
     left: 35%;
     top: 30%;
+}
+/* <!-- protfolio section  --> */
+.portfolio-container{
+    width: 1320px;
+    height: 1163px;
+    margin: 0 auto;
+    margin-top: 90px;
+    /* border: 2px solid red; */
+    margin-bottom: 90px;
+}
+.portfolio-text-content h4{
+    color: rgb(255, 0, 0);
+font-family: Inter;
+font-size: 24px;
+font-weight: 500;
+margin-bottom: 16px;
+}
+.portfolio-text-content h1{
+    color: rgb(7, 2, 17);
+font-family: Merriweather;
+font-size: 48px;
+font-weight: 900;
+margin-bottom: 22px;
+}
+.portfolio-text-content p{
+    color: rgba(7, 2, 17, 0.6);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 48px;
+}
+.portfolio-items{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 15px;
+}
+.item{
+    width: 424px;
+height: 450px;
+}
+.item img{
+    width: 100%;
+    height: 100%;
+}
+/* footer section styles */
+.footer-container{
+    width: 1600px;
+    height: 609px;
+    margin-top: 90px;
+    /* border: 2px solid red; */
+    background-color: rgb(7, 2, 17); 
+}
+.contact{
+    display: flex;
+    color: rgb(255, 255, 255);
+}
+.footer-first-section{
+    display: flex;
+
+    color: rgb(255, 255, 255);
 }
